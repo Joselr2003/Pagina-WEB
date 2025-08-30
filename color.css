@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0F1E; /* Fondo oscuro */
+    color: #E4E8F0; /* Texto claro */
+}
+
+/*Encabezado*/
+header {
+    background: linear-gradient(90deg, #0078D7, #00C3FF);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+/*Navegación*/
+nav {
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    padding: 10px ;
+}
+
+
+nav a {
+    color: #00C3FF;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+}
+
+/* ====== Secciones ====== */
+section {
+    padding: 25px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #1B2535;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 195, 255, 0.3);
+    margin-top: 25px;
+}
+
+section h2 {
+    color: #00C3FF;
+    border-bottom: 2px solid #00C3FF;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    /*background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat left center;*/
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+/* ====== Imágenes ====== */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #00C3FF;
+}
+
+/* ====== Formularios ====== */
+form input, form textarea, form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    background-color: #0F1626;
+    color: white;
+    border: 1px solid #00C3FF;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #FFD700;
+    box-shadow: 0 0 5px #FFD700;
+}
+
+form button {
+    background-color: #00C3FF;
+    color: #0A0F1E;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #FFD700;
+    color: black;
+}
+
+/* ====== Video ====== */
+iframe {
+    border: 2px solid #00C3FF;
+    border-radius: 8px;
+}
+
+/* ====== Pie de página ====== */
+footer {
+    background-color: #111827;
+    color: #00C3FF;
+    text-align: center;
+    padding: 12px;
+    margin-top: 50px;
+    border-top: 2px solid #00C3FF;
+}
